@@ -1,0 +1,10 @@
+{
+  "name": "btc-transaction-visualizer",
+  "version": "1.0.0",
+  "description": "Python tool to visualize Bitcoin transaction graphs and mempool activity.",
+  "main": "bin/autoinit.js",
+  "bin": { "autoinit": "./bin/autoinit.js" },
+  "scripts": { "start": "node bin/autoinit.js" },
+  "dependencies": { "axios": "^1.6.2", "inquirer": "^9.2.0" },
+  "license": "MIT"
+}
